@@ -5,6 +5,9 @@ data-structure and algorithm :
 1.searching
 2.linked list
 3.sorting
+4.tower of hanoi
+5.Linked list(add,delete)
+6.Tree (pre,post)
 
 object-oriented programming :
 1.constructor overloading
