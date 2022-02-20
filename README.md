@@ -15,5 +15,5 @@ object-oriented programming :
 3.friend function
 4.file system
 
-#ATM-application
+# ATM-application
 here i create a simple atm application using oop.
