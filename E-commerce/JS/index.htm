@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Test</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 class="text-center mt-4">Basic Information</h2>
+
+    <div class="col-lg-12 p-5 rg_info">
+      <!-- <form method="" id="myForm">
+        <div class="row">
+          <div class="form-group mb-2 col-lg-6">
+            <label for="exampleInputEmail1" class="text-light">Full Name</label>
+            <input
+              type="text"
+              name="name"
+              required=""
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter Full Name"
+            />
+          </div>
+          <div class="form-group mb-2 col-lg-6">
+            <label for="exampleInputEmail1" class="text-light"
+              >Department</label
+            >
+            <input
+              type="text"
+              name="department"
+              required=""
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter Department"
+            />
+          </div>
+
+          <div class="form-group mb-2 col-lg-6">
+            <label for="exampleInputEmail1" class="text-light"
+              >Email address</label
+            >
+            <input
+              type="email"
+              name="email"
+              required=""
+              class="form-control"
+              id="email"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+              onblur="validateEmail(this)"
+            />
+
+            <div id="emailHelp" class="form-text text-muted">
+              Please enter a valid email address.
+            </div>
+          </div>
+          <div class="form-group mb-2 col-lg-6">
+            <label for="exampleInputEmail1" class="text-light"
+              >Phone Number</label
+            >
+            <input
+              type="tel"
+              name="phone"
+              required=""
+              class="form-control"
+              id="mobile"
+              placeholder="Enter Mobile No."
+            />
+          </div>
+
+          <div class="check_gap">
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="maleCheckbox"
+              />
+              <label class="form-check-label" for="maleCheckbox">Male</label>
+            </div>
+
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="femaleCheckbox"
+              />
+              <label class="form-check-label" for="femaleCheckbox"
+                >Female</label
+              >
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-success col-3 reg_btn"
+            id="reg_btn"
+          >
+            Submit
+          </button>
+        </div>
+      </form> -->
+
+      <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile" required />
+        <br />
+        <label for="terms">Male</label>
+        <input type="checkbox" id="male" name="terms" />
+        <label for="terms">Female</label>
+        <input type="checkbox" id="female" name="terms" />
+        <br />
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

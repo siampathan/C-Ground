@@ -1,0 +1,44 @@
+.align {
+  margin-left: 30%;
+}
+
+form button {
+  width: 130px;
+  height: 50px;
+  background-color: #0f93ec;
+  border: transparent;
+  transition: 0.5s all;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  transform: scale(1.1);
+  border-radius: 15px;
+  color: #fff;
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+.pl {
+  padding-left: 30px;
+}
+
+.table-data h4 {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.center {
+  margin: 10px auto;
+}
+
+footer {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

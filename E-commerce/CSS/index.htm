@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Website Example</title>
+    <style>
+      .formatted-text p {
+        font-size: 1.2em;
+      }
+      section {
+        margin-bottom: 20px;
+      }
+      h3 {
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="align">
+      <h1>Welcome!</h1>
+      <p>This is a simple website example.</p>
+    </header>
+    <main>
+      <section class="formatted-text align">
+        <h2>Formatted Text</h2>
+        <p>
+          This paragraph uses <strong>bold</strong> and <em>italic</em> styles.
+        </p>
+        <span style="color: blue"
+          >This text is colored blue using inline style.</span
+        >
+      </section>
+      <section>
+        <h3>Contact Form</h3>
+        <form action="/submit" method="post" class="align">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+          <br />
+          <label for="email" class="mt">Email:</label>
+          <input type="email" id="email" class="mt" required />
+          <br />
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            rows="5"
+            cols="30"
+            class="mt"
+            required
+          ></textarea>
+          <br />
+          <button type="submit" class="mt">Send</button>
+        </form>
+      </section>
+      <section class="table-data">
+        <h4 class="align">Our Services</h4>
+        <table class="center">
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Web Development</td>
+              <td class="pl">Creating beautiful and functional websites.</td>
+            </tr>
+            <tr>
+              <td>Graphic Design</td>
+              <td class="pl">Designing logos, brochures, and other visuals.</td>
+            </tr>
+            <tr style="background-color: lightgray">
+              <td>Marketing</td>
+              <td class="pl">
+                Helping businesses reach their target audience.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Simple Website Example</p>
+      <a href="https://siam-sm-portfolio.netlify.app/">Visit my Portfolio</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.info_wrap {
+  max-width: 80rem;
+  margin: 20px auto;
+  padding: 0 70px;
+}
+
+.check_gap {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
